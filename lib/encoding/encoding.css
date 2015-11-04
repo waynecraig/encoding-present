@@ -1,0 +1,76 @@
+.encoding {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: stretch;
+  align-items: stretch; }
+  .encoding h2 {
+    height: 60px;
+    line-height: 60px;
+    text-align: center; }
+  .encoding .content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-grow: 1;
+    flex-grow: 1; }
+    .encoding .content .input, .encoding .content .output {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      -webkit-justify-content: space-around;
+      justify-content: space-around;
+      -webkit-flex-grow: 1;
+      flex-grow: 1; }
+    .encoding .content .input {
+      -webkit-align-items: center;
+      align-items: center; }
+      .encoding .content .input .char {
+        width: 100px;
+        height: 100px;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center; }
+    .encoding .content .output {
+      -webkit-align-items: center;
+      align-items: center; }
+      .encoding .content .output .row {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        width: 80%; }
+        .encoding .content .output .row .col {
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-direction: column;
+          flex-direction: column;
+          -webkit-justify-content: space-around;
+          justify-content: space-around; }
+        .encoding .content .output .row .key {
+          width: 180px;
+          text-align: center; }
+        .encoding .content .output .row .value {
+          -webkit-flex-grow: 1;
+          flex-grow: 1;
+          text-align: right; }
+        .encoding .content .output .row p {
+          font-size: 20px;
+          height: 30px;
+          line-height: 30px;
+          border-bottom: solid 1px #333; }
+  .encoding .next {
+    position: fixed;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    color: blue; }
+
+/*# sourceMappingURL=encoding.css.map */
