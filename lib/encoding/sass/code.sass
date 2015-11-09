@@ -1,0 +1,21 @@
+@import './flex'
+.code
+	width: 100%
+	+display-flex()
+	+flex-direction(column)
+	+flex-grow(1)
+	+align-items(strech)
+	+justify-content(space-between)
+	.block
+		+display-flex()
+		.rcp-CodeBlock
+			margin: 0
+		.apply
+			display: block
+			cursor: pointer
+			width: 100px
+			margin: 0 20px
+		.apply:hover
+			color: blue
+		.result
+			width: 50%

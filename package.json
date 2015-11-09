@@ -39,5 +39,8 @@
     "webpack": "^1.10.0",
     "webpack-dev-server": "^1.10.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "art-template": "^3.0.3",
+    "d3": "^3.5.6"
+  }
 }

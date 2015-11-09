@@ -1,0 +1,18 @@
+@import './flex'
+.browser
+	width: 100%
+	+display-flex()
+	+flex-grow(1)
+	+align-items(center)
+	+justify-content(space-around)
+	.rcp-CodeBlock
+		margin: 0
+	.rule
+		width: 60%
+		.row
+			+display-flex()
+			+align-items(center)
+			margin: 20px
+			border-bottom: solid 1px #fff
+			ul
+				margin: 0
